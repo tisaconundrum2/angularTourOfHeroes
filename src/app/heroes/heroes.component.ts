@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from '../hero';
+import { Hero } from '../hero'; // when we import, we are importing with no .ts
 import { HEROES } from '../mock-heroes';
 
-@Component({
-  selector: 'app-heroes',
+@Component({ // Specifying a component that the html and css belong to
+  selector: 'app-heroes', // This affects the <app-heroes></app-heroes> selector in src/app/app.component.html
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })
