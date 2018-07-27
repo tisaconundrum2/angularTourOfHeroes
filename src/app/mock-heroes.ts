@@ -1,3 +1,4 @@
+// Array of Hero objects with heroes names and IDs inside
 import { Hero } from './hero';
 
 export const HEROES: Hero[] = [
